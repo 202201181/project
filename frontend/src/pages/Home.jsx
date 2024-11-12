@@ -1,14 +1,16 @@
 import Header from "./Movies/Header";
 import MoviesContainerPage from "./Movies/MoviesContainerPage";
+import TopMovies from "./Movies/TopMovies";
 
 const Home = () => {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
 
-      <section className="mt-[10rem]">
+      {/* <section className="mt-[10rem]">
         <MoviesContainerPage />
-      </section>
+      </section> */}
+      <TopMovies />
     </>
   );
 };
